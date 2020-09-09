@@ -1,0 +1,22 @@
+@import "./../abstracts/variables";
+
+.box__container {
+    display: flex;
+    flex-direction: row;
+    padding: 70px 170px;
+
+    &__step {
+        border-top: 7px solid $medium-color;
+        width: calc(100% / 4);
+        text-align: center;
+        color: $secondary-color;
+        font-weight: bold;
+        padding-top: 20px;
+
+    }
+
+    .step--active {
+        color: $dark-color;
+        border-top: 7px solid $primary-color;
+    }
+}
