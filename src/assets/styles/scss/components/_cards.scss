@@ -1,0 +1,36 @@
+.card__post{
+    width: 616px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    margin: 10px;
+
+.post__header{
+    height: 60px;
+    display:flex;
+    align-items: center;
+    padding: 0px 16px;
+    border-bottom: 1px solid blue;
+
+    &__photo{
+        height: 32px;
+        width: 32px;
+        border-radius: 25%;
+        margin-right: 14px;
+    }
+
+    &__username{
+        font-weight: bold;
+    }
+}
+
+.post__photo{
+    width: 100%;
+}
+
+.post__like{}
+.post__comment{}
+.post__time{
+    font-size: 10px;
+    color:red;
+}
+}
