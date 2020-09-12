@@ -1,36 +1,109 @@
-.card__post{
-    width: 616px;
-    border: 1px solid blue;
+@import './../abstracts/variables';
+
+.card__post {
+    color: $gray-900;
+    border: 1px solid $gray-100;
     border-radius: 3px;
-    margin: 10px;
+    margin-bottom: 60px;
+    width: 614px;
 
-.post__header{
-    height: 60px;
-    display:flex;
-    align-items: center;
-    padding: 0px 16px;
-    border-bottom: 1px solid blue;
+    .post__header {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 16px;
+        border-bottom: 1px solid $gray-100;
 
-    &__photo{
-        height: 32px;
-        width: 32px;
-        border-radius: 25%;
-        margin-right: 14px;
+        &__user,
+        &__options {
+            display: flex;
+            align-items: center;
+        }
+
+        &__photo {
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+            margin-right: 14px;
+        }
+
+        &__username {
+            font-weight: bold;
+        }
     }
 
-    &__username{
-        font-weight: bold;
+    .post__photo {
+        width: 100%;
+    }
+
+    .post__footer {
+        padding: 12px 16px;
+        font-size: $font-size;
+
+        .post__reactions {
+            display: flex;
+            justify-content: space-between;
+
+            &__left,
+            &__right {
+                img {
+                    height: 20px;
+                }
+            }
+
+            &__left {
+                img {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .post__like,
+        .post__comment {
+            line-height: 1.5;
+
+            span {
+                font-weight: bold;
+            }
+        }
+
+        .post__comment {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .post__time {
+            font-size: $font-size-small;
+            color: $gray-500;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .card__post {
+        color: $gray-900;
+        border: none;
+        margin-bottom: 15px;
+        width: 100%;
     }
 }
 
-.post__photo{
-    width: 100%;
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .card__post {
+        margin-bottom: 15px;
+
+    }
 }
 
-.post__like{}
-.post__comment{}
-.post__time{
-    font-size: 10px;
-    color:red;
-}
-}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {}
