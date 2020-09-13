@@ -1,0 +1,10 @@
+.container__page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__post {
+        display: flex;
+        flex-direction: column;
+    }
+}

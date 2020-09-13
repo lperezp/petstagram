@@ -4,6 +4,7 @@ import CardProfile from '../components/CardProfile';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 import History from './../components/History';
+import './../../../scss/layout/_home.scss';
 
 const Home: React.FC = () => {
   return (
