@@ -1,0 +1,11 @@
+@import './../abstracts/variables';
+
+.footer {
+    padding: 0px 16px;
+
+    p {
+        font-size: 12px;
+        line-height: 1.5;
+        color: $gray-300;
+    }
+}
