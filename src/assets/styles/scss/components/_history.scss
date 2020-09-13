@@ -1,0 +1,17 @@
+@import './../abstracts/variables';
+
+.circle__history {
+    border: 2px solid red;
+    border-radius: 50%;
+    margin: 0px 16px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__profile {
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+    }
+}
