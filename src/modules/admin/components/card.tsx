@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../../assets/styles/scss/components/_cards.scss';
+import './../../../scss/components/_cards.scss';
 import photo from './../../../post.jpg';
 import ic_paw_outline from './../../../assets/img/ic_paw-outline.svg';
 import ic_comment from './../../../assets/img/ic_comment.svg';

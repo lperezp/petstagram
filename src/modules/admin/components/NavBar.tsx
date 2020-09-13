@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../../assets/styles/scss/components/_navbar.scss';
+import './../../../scss/components/_navbar.scss';
 import logo_petstagram from './../../../assets/img/logo_petstagram.svg';
 import ic_paw from './../../../assets/img/ic_paw-outline.svg';
 import ic_home from './../../../assets/img/ic_home.svg';

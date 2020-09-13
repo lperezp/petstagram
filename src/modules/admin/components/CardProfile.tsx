@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../../assets/styles/scss/components/_card-profile.scss';
+import './../../../scss/components/_card-profile.scss';
 import profile from './../../../assets/img/profile.jpg';
 
 const CardProfile: React.FC = () => {

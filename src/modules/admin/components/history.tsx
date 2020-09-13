@@ -1,6 +1,6 @@
 import React from 'react';
-import './../../../assets/styles/scss/components/_cards.scss';
-import ProfileHistory from './profile_history';
+import './../../../scss/components/_cards.scss';
+import ProfileHistory from './ProfileHistory';
 
 const History: React.FC = () => {
   return (

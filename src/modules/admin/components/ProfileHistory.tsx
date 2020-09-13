@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../../assets/styles/scss/components/_history.scss';
+import './../../../scss/components/_history.scss';
 import profile from './../../../assets/img/profile.jpg';
 const ProfileHistory: React.FC = () => {
   return (
