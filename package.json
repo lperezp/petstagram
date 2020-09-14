@@ -15,9 +15,12 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "typescript": "~3.7.2"
+    "source-map-explorer": "^2.5.0",
+    "typescript": "~3.7.2",
+    "webpack-bundle-analyzer": "^3.8.0"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
