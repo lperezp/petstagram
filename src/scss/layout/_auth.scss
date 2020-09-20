@@ -1,34 +1,34 @@
-.box_container {
-    height: 100vh;
+.container__signIn {
     display: flex;
     flex-direction: row;
-}
-
-.box_container>div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding: 70px;
-}
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 
-.box_container_form_logo {
-    width: 110px;
-}
+    &__img {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        align-items: center;
 
-.box_container_img {
-    background-image: url('./assets/img/bg-app.png');
-    background-position: center;
-    background-size: cover;
-}
-
-@media (max-width: 768px) {
-    .box_container_img {
-        display: none !important;
+        img {
+            height: 80vh;
+        }
     }
 
-    .box_container>div {
-        align-items: center;
-        padding: 0px;
+    &__form {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 50%;
+        align-items: flex-start;
+        text-align: center;
+
+        .box__footer {
+            padding: 20px;
+            width: 60%;
+        }
     }
 }

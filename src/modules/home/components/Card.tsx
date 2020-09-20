@@ -10,7 +10,7 @@ import ic_bookmark from './../../../assets/img/ic_bookmark.svg';
 
 const Card: React.FC = () => {
   return (
-    <div className='card__post'>
+    <div className='card card__post'>
       <div className='post__header'>
         <div className='post__header__user'>
           <img src={profile} alt='profile' className='post__header__photo' />

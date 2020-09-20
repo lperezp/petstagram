@@ -4,7 +4,7 @@ import ProfileHistory from './ProfileHistory';
 
 const History: React.FC = () => {
   return (
-    <div className='card__post card__history'>
+    <div className='card card__history'>
       <div className='history__scroll'>
         <ProfileHistory />
         <ProfileHistory />

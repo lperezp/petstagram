@@ -1,9 +1,12 @@
 @import './../abstracts/variables';
 
-.card__post {
+.card {
     color: $gray-900;
     border: 1px solid $gray-100;
     border-radius: 3px;
+}
+
+.card__post {
     margin-bottom: 60px;
     width: 614px;
 
@@ -92,6 +95,19 @@
         align-items: center;
 
         overflow-x: auto;
+    }
+}
+
+.card__login {
+    width: 60%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: fle;
+    align-items: center;
+
+    p {
+        padding: 20px;
     }
 }
 

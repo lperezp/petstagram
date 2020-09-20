@@ -1,1 +1,14 @@
 @import "./../abstracts/variables";
+
+.btn-primary {
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px gray;
+    padding: 4px;
+
+    img {
+        height: 20px;
+    }
+}
