@@ -17,7 +17,7 @@ const Home: React.FC = () => {
           <Card />
           <Card />
         </div>
-        <div>
+        <div className='container__page__detail'>
           <CardProfile />
           <Footer />
         </div>

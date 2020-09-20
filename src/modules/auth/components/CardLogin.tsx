@@ -19,7 +19,10 @@ const CardLogin: React.FC = () => {
         console.log(result);
         history.push('/home');
       })
-      .catch((e) => console.log('error', e));
+      .catch((e) => {
+        alert(e);
+        console.log('error', e);
+      });
   };
   return (
     <div className='card card__login'>

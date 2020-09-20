@@ -8,3 +8,16 @@
         flex-direction: column;
     }
 }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .container__page {
+        &__post {
+            width: 100%;
+        }
+
+        &__detail {
+            display: none;
+        }
+    }
+}
